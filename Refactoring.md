@@ -9,3 +9,5 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+First, i try to make a code using readable variables to make easy to understand what code must do, second i split the code to steps with clarify goals to complement the idea of a readable code and finally i create a function to reuse the rules to normalize a candidate partition key, to make easy to change this rule id is necessary.
